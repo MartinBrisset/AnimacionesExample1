@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:ejemplo1/src/pages/animaciones_page.dart';
+
+import 'package:ejemplo1/src/retos/cuadrado_animado_page.dart';
+// import 'package:ejemplo1/src/pages/animaciones_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,7 +14,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Diseños App',
       debugShowCheckedModeBanner: false,
-      home: AnimacionesPage()
+      // home: AnimacionesPage()
+      home: CuadradoAnimadoPage()
     );
   }
 }
